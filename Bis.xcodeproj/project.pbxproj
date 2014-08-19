@@ -202,6 +202,7 @@
 		7B20FBC419A2DF9700E79B0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B20FBC319A2DF9700E79B0E /* AppDelegate.m */; };
 		7B20FBC719A2DF9700E79B0E /* HelloWorldScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B20FBC619A2DF9700E79B0E /* HelloWorldScene.m */; };
 		7B20FBCA19A2DF9700E79B0E /* IntroScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B20FBC919A2DF9700E79B0E /* IntroScene.m */; };
+		7B8A0ABB19A2EDB80032579C /* TitleScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8A0ABA19A2EDB80032579C /* TitleScreen.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -613,6 +614,8 @@
 		7B20FBC619A2DF9700E79B0E /* HelloWorldScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HelloWorldScene.m; path = Classes/HelloWorldScene.m; sourceTree = "<group>"; };
 		7B20FBC819A2DF9700E79B0E /* IntroScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IntroScene.h; path = Classes/IntroScene.h; sourceTree = "<group>"; };
 		7B20FBC919A2DF9700E79B0E /* IntroScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = IntroScene.m; path = Classes/IntroScene.m; sourceTree = "<group>"; };
+		7B8A0AB919A2EDB80032579C /* TitleScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TitleScreen.h; path = Classes/Scenes/TitleScreen.h; sourceTree = "<group>"; };
+		7B8A0ABA19A2EDB80032579C /* TitleScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TitleScreen.m; path = Classes/Scenes/TitleScreen.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1423,6 +1426,7 @@
 		7B20FBC119A2DF9700E79B0E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				7B8A0AB819A2ED660032579C /* Scenes */,
 				7B20FBC219A2DF9700E79B0E /* AppDelegate.h */,
 				7B20FBC319A2DF9700E79B0E /* AppDelegate.m */,
 				7B20FBC519A2DF9700E79B0E /* HelloWorldScene.h */,
@@ -1431,6 +1435,15 @@
 				7B20FBC919A2DF9700E79B0E /* IntroScene.m */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		7B8A0AB819A2ED660032579C /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				7B8A0AB919A2EDB80032579C /* TitleScreen.h */,
+				7B8A0ABA19A2EDB80032579C /* TitleScreen.m */,
+			);
+			name = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1597,6 +1610,7 @@
 				7B20FACD19A2DF8700E79B0E /* OALUtilityActions.m in Sources */,
 				7B20FA0519A2DF8000E79B0E /* CCMotionStreak.m in Sources */,
 				7B20FB0F19A2DF8B00E79B0E /* NSMutableArray+WeakReferences.m in Sources */,
+				7B8A0ABB19A2EDB80032579C /* TitleScreen.m in Sources */,
 				7B20FAFD19A2DF8A00E79B0E /* OpenALManager.m in Sources */,
 				7B20FA6D19A2DF8400E79B0E /* CCTMXXMLParser.m in Sources */,
 				7B20FAA219A2DF8500E79B0E /* CCProfiling.m in Sources */,
@@ -1859,6 +1873,7 @@
 				7B20FBCF19A2DF9700E79B0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B20FBD019A2DF9700E79B0E /* Build configuration list for PBXNativeTarget "Bis" */ = {
 			isa = XCConfigurationList;
@@ -1867,6 +1882,7 @@
 				7B20FBD219A2DF9700E79B0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
